@@ -79,7 +79,7 @@
   &.disabled,
   &:disabled {
     color: var(--secondary-disabled-color);
-    background-color: var(--secondary-disabled-bg);
+    background: var(--secondary-disabled-bg);
     border-color: var(--secondary-disabled-border-color);
 
     &:focus {

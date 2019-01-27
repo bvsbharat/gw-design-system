@@ -490,7 +490,7 @@ fieldset:disabled a.btn
 {
     color: var(--secondary-disabled-color);
     border-color: var(--secondary-disabled-border-color); 
-    background-color: var(--secondary-disabled-bg);
+    background: var(--secondary-disabled-bg);
 }
 .btn-outline-primary.disabled:focus,
 .btn-outline-primary:disabled:focus
@@ -536,7 +536,7 @@ fieldset:disabled a.btn
 {
     color: var(--secondary-disabled-color);
     border-color: var(--secondary-disabled-border-color); 
-    background-color: var(--secondary-disabled-bg);
+    background: var(--secondary-disabled-bg);
 }
 .btn-outline-secondary.disabled:focus,
 .btn-outline-secondary:disabled:focus
@@ -582,7 +582,7 @@ fieldset:disabled a.btn
 {
     color: var(--secondary-disabled-color);
     border-color: var(--secondary-disabled-border-color); 
-    background-color: var(--secondary-disabled-bg);
+    background: var(--secondary-disabled-bg);
 }
 .btn-outline-success.disabled:focus,
 .btn-outline-success:disabled:focus
@@ -628,7 +628,7 @@ fieldset:disabled a.btn
 {
     color: var(--secondary-disabled-color);
     border-color: var(--secondary-disabled-border-color); 
-    background-color: var(--secondary-disabled-bg);
+    background: var(--secondary-disabled-bg);
 }
 .btn-outline-info.disabled:focus,
 .btn-outline-info:disabled:focus
@@ -674,7 +674,7 @@ fieldset:disabled a.btn
 {
     color: var(--secondary-disabled-color);
     border-color: var(--secondary-disabled-border-color); 
-    background-color: var(--secondary-disabled-bg);
+    background: var(--secondary-disabled-bg);
 }
 .btn-outline-warning.disabled:focus,
 .btn-outline-warning:disabled:focus
@@ -720,7 +720,7 @@ fieldset:disabled a.btn
 {
     color: var(--secondary-disabled-color);
     border-color: var(--secondary-disabled-border-color); 
-    background-color: var(--secondary-disabled-bg);
+    background: var(--secondary-disabled-bg);
 }
 .btn-outline-danger.disabled:focus,
 .btn-outline-danger:disabled:focus
@@ -766,7 +766,7 @@ fieldset:disabled a.btn
 {
     color: var(--secondary-disabled-color);
     border-color: var(--secondary-disabled-border-color); 
-    background-color: var(--secondary-disabled-bg);
+    background: var(--secondary-disabled-bg);
 }
 .btn-outline-light.disabled:focus,
 .btn-outline-light:disabled:focus
@@ -812,7 +812,7 @@ fieldset:disabled a.btn
 {
     color: var(--secondary-disabled-color);
     border-color: var(--secondary-disabled-border-color); 
-    background-color: var(--secondary-disabled-bg);
+    background: var(--secondary-disabled-bg);
 }
 .btn-outline-dark.disabled:focus,
 .btn-outline-dark:disabled:focus
