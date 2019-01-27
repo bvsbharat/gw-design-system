@@ -1,7 +1,10 @@
 <h1 id="GW-design-system"><a href="#">GW Design System</a></h1>
 <p>Start your development with a  GW Design System.</p>
 
-
+<ul>
+  <li>Demo: <a href="https://bvsbharat.github.io/gw-design-system/">Live Preview</a></li>
+ </ul>
+ 
 <h2 id="file-structure">Start Application</h2>
 
 <p> You need to have gulp installed to run in localhost or you can direclty via opening index.html</p>
@@ -48,8 +51,3 @@
 <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/safari.png" width="64" height="64" />
 <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/opera.png" width="64" height="64" /></p>
 
-<h2 id="resources">Resources</h2>
-
-<ul>
-  <li>Demo: <a href="https://bvsbharat.github.io/gw-design-system/">Live link</a></li>
- </ul>
