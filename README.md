@@ -51,5 +51,5 @@
 <h2 id="resources">Resources</h2>
 
 <ul>
-  <li>Demo: <a href="#">Test link</a></li>
+  <li>Demo: <a href="https://bvsbharat.github.io/gw-design-system/">Live link</a></li>
  </ul>
