@@ -1,0 +1,106 @@
+/*!
+
+=========================================================
+* CSS Custom Property for consumer theme
+=========================================================
+
+*/
+
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary:linear-gradient(to right,#00739d 20%, #0683b1e0);
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-bold: 700;
+    --btn-padding-y: .8rem;
+    --btn-padding-x: 4.5rem;
+    --btn-line-height: 1.2;
+    --btn-padding-y-sm: .6rem;
+    --btn-padding-x-sm: var(--btn-padding-x);
+    --btn-line-height-sm: 1;
+    --btn-padding-y-lg: .9rem;
+    --btn-padding-x-lg: var(--btn-padding-x);
+    --btn-line-height-lg: 1.5;
+    --btn-border-width: .08rem;
+    --btn-border-color: #00739d;
+    --btn-text-color: #fff;
+    --btn-font-weight: 400;
+    --btn-box-shadow: inset 0 1px 0 rgba(var(--white), .15), 0 1px 1px rgba(var(--black), .075);
+    --btn-focus-width: .2rem;
+    --btn-focus-box-shadow: 0 7px 14px rgba(50, 50, 93, .1), 0 3px 6px rgba(0, 0, 0, .08);
+    --btn-disabled-opacity: .65;
+    --btn-active-box-shadow: inset 0 3px 5px rgba(var(--black), .125);
+    --btn-link-disabled-color: gray;
+    --btn-block-spacing-y: .5rem;
+    --btn-border-radius: .3rem;
+    --btn-border-radius-lg: 1;
+    --btn-border-radius-sm: 1;
+    --primary-disabled-color:#fff;
+    --secondary-color: #00739d;
+    --secondary-disabled-bg:#99c8d8;
+    --secondary-disabled-color:#99c8d8;
+    --secondary-btn-border-width: 2px;
+    --primary-hover-color:  #fff;
+    --primary-hover-bg:linear-gradient(to right,#016083 20%, #00739d);
+    --primary-hover-border-color:#00739d;
+    --secondary-hover-color:  #fff;
+    --secondary-hover-bg:linear-gradient(to right,#016083 20%, #00739d);
+    --secondary-hover-border-color:#00739d;
+    --primary-disabled-color:  #fff;
+    --primary-disabled-bg: linear-gradient(to right,#99c8d8 20%, #99cfe2);
+    --primary-disabled-border-color:#99c8d8;
+    --secondary-disabled-color:  #99c8d8;
+    --secondary-disabled-bg: #fff;
+    --secondary-disabled-border-color:#99c8d8;
+    --primary-active-color: #fff; 
+    --primary-active-bg: linear-gradient(to right,#014c69 20%, #016083);
+    --primary-active-border-color:#014c69;
+    --secondary-active-color:  #fff;
+    --secondary-active-bg: linear-gradient(to right,#014c69 20%, #016083);
+    --secondary-active-border-color:#014c69;
+    --primary-focus-border-color:rgb(150, 204, 227);
+    --primary-focus-border-radius: .3rem;
+    --primary-focus-border-width:3px;
+    --secondary-focus-border-radius:.3rem;
+    --secondary-focus-border-width:1px;
+    --secondary-focus-boxshadow-width:2px;
+    --secondary-focus-boxshadow-width-2:0px;
+    --secondary-focus-boxshadow-color:rgb(150, 204, 227);
+    --btn-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    --enable-rounded: true;
+    --enable-transitions: true;
+    --enable-shadows:true;
+    --hover-border: 2rem;
+    --active-background-primary: #005d80;
+    --active-background-secondary: #effbff;
+    --active-border:2rem;
+}
+
+.non-consumer{
+    display: none;
+}

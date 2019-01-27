@@ -1,0 +1,113 @@
+
+/*!
+
+=========================================================
+* Button component
+=========================================================
+
+*/
+
+.btn {
+  display: inline-block;
+  font-weight: var(--font-weight-normal);
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border-width: var(--btn-border-width);
+  border-radius: var(--btn-border-radius);
+  border-color: var(--btn-border-color);
+  margin: 4px;
+
+  @include button-size(var(--btn-padding-y), var(--btn-padding-x), var(--font-size-base), var(--btn-line-height), var(--btn-border-radius));
+
+  &:hover {
+    box-shadow: var(--btn-focus-box-shadow);
+    background: var(--primary);
+  }
+
+  &:focus,
+  &.focus {
+    outline: 0;
+    box-shadow: var(--btn-focus-box-shadow);
+  }
+
+  // Disabled comes first so active can properly restyle
+  &.disabled,
+  &:disabled {
+    opacity: var(--btn-disabled-opacity);
+    @include box-shadow(none);
+  }
+
+  // Opinionated: add "hand" cursor to non-disabled .btn elements
+  &:not(:disabled):not(.disabled) {
+    cursor: pointer;
+  }
+}
+
+// Future-proof disabling of clicks on `<a>` elements
+a.btn.disabled,
+fieldset:disabled a.btn {
+  pointer-events: none;
+}
+
+//
+// Diffrent color of buttom 
+//
+
+$theme-colors:("primary": var(--primary),
+"secondary": var(--secondary),
+"success": var(--success),
+"info": var(--info),
+"warning": var(--warning),
+"danger": var(--danger),
+"light": var(--light),
+"dark": var(--dark));
+
+@each $color,
+$value in $theme-colors {
+  .btn-#{$color} {
+    @include button-variant($value, $value);
+  }
+}
+
+@each $color,
+$value in $theme-colors {
+  .btn-outline-#{$color} {
+    @include button-outline-variant($value);
+  }
+}
+
+//
+// Button Sizes
+//
+
+.btn-lg {
+  @include button-size(var(--btn-padding-y-lg), var(--btn-padding-x-lg), var(--font-size-lg), var(--btn-line-height-lg), var(--btn-border-radius-lg));
+}
+
+.btn-sm {
+  @include button-size(var(--btn-padding-y-sm), var(--btn-padding-x-sm), var(--font-size-sm), var(--btn-line-height-sm), var(--btn-border-radius-sm));
+}
+
+//
+// Block button
+//
+
+.btn-block {
+  display: block;
+  width: 100%;
+
+  +.btn-block {
+    margin-top: var(--btn-block-spacing-y);
+  }
+}
+
+// Specificity overrides
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  &.btn-block {
+    width: 100%;
+  }
+}
