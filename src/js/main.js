@@ -58,5 +58,8 @@ $(function () {
         .eq(1).css("backgroundColor", "#fff");
     }
 
+    $("button").click(function(e){
+        e.target.focus();
+    });
 
 });
