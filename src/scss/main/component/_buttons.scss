@@ -51,10 +51,7 @@ fieldset:disabled a.btn {
   pointer-events: none;
 }
 
-//
 // Diffrent color of buttom 
-//
-
 $theme-colors:("primary": var(--primary),
 "secondary": var(--secondary),
 "success": var(--success),
@@ -78,10 +75,7 @@ $value in $theme-colors {
   }
 }
 
-//
 // Button Sizes
-//
-
 .btn-lg {
   @include button-size(var(--btn-padding-y-lg), var(--btn-padding-x-lg), var(--font-size-lg), var(--btn-line-height-lg), var(--btn-border-radius-lg));
 }
@@ -90,10 +84,7 @@ $value in $theme-colors {
   @include button-size(var(--btn-padding-y-sm), var(--btn-padding-x-sm), var(--font-size-sm), var(--btn-line-height-sm), var(--btn-border-radius-sm));
 }
 
-//
 // Block button
-//
-
 .btn-block {
   display: block;
   width: 100%;
